@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Component } from 'react';
+import './App.scss';
+import Background from './components/Banner';
+import CardList from './components/Cards';
+
+import Descricao from './components/Descricao';
+import Footer from './components/Footer';
+import Header from './components/Header'
+
+
+
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+
+    }
+
+  }
+
+
+  render() {
+    return (
+      <>
+        <Header />
+        <main>
+          <Background>
+          </Background>
+          <hr class="featurette-divider" />
+          <Descricao />
+          <hr class="featurette-divider" />
+        </main>
+        <CardList></CardList>
+
+        <Footer />
+      </>
+
+    )
+  }
 }
 
-export default App;
+
+
+

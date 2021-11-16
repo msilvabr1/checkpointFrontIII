@@ -1,0 +1,31 @@
+#containerImagem{
+    background-image: url("https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    height: calc(100vh - 81px);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: tomato;
+    
+    
+  }
+
+#titulo {
+  font-size: 55px;
+
+}
+
+#descricao {
+  font-size: 30px;
+  color: #f6cd16;
+}
+
+  
+
+  
+
+
+  
