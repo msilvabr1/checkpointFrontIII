@@ -14,9 +14,7 @@ export default class App extends Component {
   constructor() {
     super();
     this.state = {
-
     }
-
   }
 
 
@@ -32,10 +30,8 @@ export default class App extends Component {
           <hr class="featurette-divider" />
         </main>
         <CardList></CardList>
-
         <Footer />
       </>
-
     )
   }
 }
